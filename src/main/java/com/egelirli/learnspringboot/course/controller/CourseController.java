@@ -20,7 +20,7 @@ public class CourseController {
 
 		@GetMapping("/courses/1")
 		public Course getCourseDetail(){
-			return new Course(1, "Learn SpringBoot", "In28Minutes");
+			return new Course(1, "Learn SpringBoot 1", "In28Minutes");
 			
 		}
 
